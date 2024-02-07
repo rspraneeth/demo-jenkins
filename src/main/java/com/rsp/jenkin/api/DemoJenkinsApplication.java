@@ -1,16 +1,16 @@
 package com.rsp.jenkin.api;
 
 import jakarta.annotation.PostConstruct;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.logging.Logger;
 
 @SpringBootApplication
 public class DemoJenkinsApplication {
 
-    static Logger logger = (Logger) LoggerFactory.getLogger(DemoJenkinsApplication.class);
+    static Logger logger = LoggerFactory.getLogger(DemoJenkinsApplication.class);
 
     @PostConstruct
     public void init(){
