@@ -18,6 +18,7 @@ class DemoJenkinsApplicationTests {
     void contextLoads() {
         logger.info("Test case executing...");
         assertTrue(true);
+        logger.info("Test case executed.");
     }
 
 }
